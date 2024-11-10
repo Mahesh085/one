@@ -3,141 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indian Flag</title>
-    <style>
-        /* Basic styling for the flag container */
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f3f4f6;
-        }
-
-        .flag {
-            width: 300px;
-            height: 180px;
-            border: 1px solid #000;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-        }
-
-        .saffron, .white, .green {
-            height: 33.33%;
-            width: 100%;
-        }
-
-        .saffron {
-            background-color: #FF9933;
-        }
-
-        .white {
-            background-color: #FFFFFF;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .green {
-            background-color: #138808;
-        }
-
-        /* Ashoka Chakra Styling */
-        .chakra {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            border: 3px solid #000080;
-            position: relative;
-        }
-
-        /* Chakra Center */
-        .chakra-center {
-            width: 8px;
-            height: 8px;
-            background-color: #000080;
-            border-radius: 50%;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        /* Chakra spokes */
-        .chakra-spoke {
-            width: 1px;
-            height: 23px;
-            background-color: #000080;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform-origin: center bottom;
-        }
-
-        /* Generating 24 spokes by rotating the base spoke */
-        .chakra-spoke:nth-child(1) { transform: translate(-50%, -100%) rotate(0deg); }
-        .chakra-spoke:nth-child(2) { transform: translate(-50%, -100%) rotate(15deg); }
-        .chakra-spoke:nth-child(3) { transform: translate(-50%, -100%) rotate(30deg); }
-        .chakra-spoke:nth-child(4) { transform: translate(-50%, -100%) rotate(45deg); }
-        .chakra-spoke:nth-child(5) { transform: translate(-50%, -100%) rotate(60deg); }
-        .chakra-spoke:nth-child(6) { transform: translate(-50%, -100%) rotate(75deg); }
-        .chakra-spoke:nth-child(7) { transform: translate(-50%, -100%) rotate(90deg); }
-        .chakra-spoke:nth-child(8) { transform: translate(-50%, -100%) rotate(105deg); }
-        .chakra-spoke:nth-child(9) { transform: translate(-50%, -100%) rotate(120deg); }
-        .chakra-spoke:nth-child(10) { transform: translate(-50%, -100%) rotate(135deg); }
-        .chakra-spoke:nth-child(11) { transform: translate(-50%, -100%) rotate(150deg); }
-        .chakra-spoke:nth-child(12) { transform: translate(-50%, -100%) rotate(165deg); }
-        .chakra-spoke:nth-child(13) { transform: translate(-50%, -100%) rotate(180deg); }
-        .chakra-spoke:nth-child(14) { transform: translate(-50%, -100%) rotate(195deg); }
-        .chakra-spoke:nth-child(15) { transform: translate(-50%, -100%) rotate(210deg); }
-        .chakra-spoke:nth-child(16) { transform: translate(-50%, -100%) rotate(225deg); }
-        .chakra-spoke:nth-child(17) { transform: translate(-50%, -100%) rotate(240deg); }
-        .chakra-spoke:nth-child(18) { transform: translate(-50%, -100%) rotate(255deg); }
-        .chakra-spoke:nth-child(19) { transform: translate(-50%, -100%) rotate(270deg); }
-        .chakra-spoke:nth-child(20) { transform: translate(-50%, -100%) rotate(285deg); }
-        .chakra-spoke:nth-child(21) { transform: translate(-50%, -100%) rotate(300deg); }
-        .chakra-spoke:nth-child(22) { transform: translate(-50%, -100%) rotate(315deg); }
-        .chakra-spoke:nth-child(23) { transform: translate(-50%, -100%) rotate(330deg); }
-        .chakra-spoke:nth-child(24) { transform: translate(-50%, -100%) rotate(345deg); }
-    </style>
+    <title>Portfolio - [Your Name]</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="flag">
-        <div class="saffron"></div>
-        <div class="white">
-            <div class="chakra">
-                <!-- Chakra center -->
-                <div class="chakra-center"></div>
-                <!-- Chakra spokes (24 in total) -->
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
-                <div class="chakra-spoke"></div>
+
+    <!-- Navbar -->
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm [Your Name]. I'm a [Your Profession, e.g., Web Developer] with a passion for creating beautiful and functional websites. With experience in HTML, CSS, JavaScript, and more, I bring ideas to life through code.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>Proficient</p>
             </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <p>Advanced</p>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Intermediate</p>
+            </div>
+            <!-- Add more skills as needed -->
         </div>
-        <div class="green"></div>
-    </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>A brief description of the project.</p>
+            <a href="https://example.com" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>A brief description of the project.</p>
+            <a href="https://example.com" target="_blank">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>I'd love to hear from you! Reach out through any of the platforms below.</p>
+        <ul>
+            <li><a href="mailto:your.email@example.com">Email</a></li>
+            <li><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+            <!-- Add other links as needed -->
+        </ul>
+    </section>
+
 </body>
 </html>
