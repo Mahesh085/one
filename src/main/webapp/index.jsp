@@ -55,8 +55,8 @@
 
         /* Chakra Center */
         .chakra-center {
-            width: 6px;
-            height: 6px;
+            width: 8px;
+            height: 8px;
             background-color: #000080;
             border-radius: 50%;
             position: absolute;
@@ -76,7 +76,6 @@
             transform-origin: center bottom;
         }
 
-        /* Rotate spokes to create 24-spoke Chakra */
         /* Generating 24 spokes by rotating the base spoke */
         .chakra-spoke:nth-child(1) { transform: translate(-50%, -100%) rotate(0deg); }
         .chakra-spoke:nth-child(2) { transform: translate(-50%, -100%) rotate(15deg); }
