@@ -9,7 +9,7 @@
 <body>
     <!-- Navbar -->
     <header>
-        <h1>Your Name</h1>
+        <h1>Bhagya</h1>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
