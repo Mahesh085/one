@@ -23,7 +23,7 @@
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! I'm [Your Name], a [Your Profession] with a passion for building dynamic and user-friendly web applications.</p>
+        <p>Hello! I'm Bhagya, a [Your Profession] with a passion for building dynamic and user-friendly web applications.</p>
     </section>
 
     <!-- Skills Section -->
